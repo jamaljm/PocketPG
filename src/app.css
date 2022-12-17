@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    background: #fff;
+}
+
+
+.link{
+    text-decoration: none;
+    color: inherit;
+}
+.App{
+    background: #fff;
+    font-family: 'Poppins', sans-serif;
+}
