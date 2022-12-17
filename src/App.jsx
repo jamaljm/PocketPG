@@ -1,5 +1,4 @@
 
-import Navbar from "./components/topbar/topbar";
 import Sidebar from "./components/sidebar/Sidebar";
 import Login from "./pages/Signup/Login";
 import SignupPage from "./pages/Signup/Signin";
@@ -15,11 +14,12 @@ import {
 } from "react-router-dom";
 import { useState } from "react";
 import { Dashboard } from "@material-ui/icons";
+import Topbar from "./components/topbar/topbar";
 
 function App() {
   
   const [auth, setAuth] = useState(
-    false || window.localStorage.getItem("auth") === "true"
+    true || window.localStorage.getItem("auth") === "true"
   );
 
   const navigate = useNavigate();
@@ -31,7 +31,7 @@ function App() {
     <>
       <div className="App">
      
-          {auth && <Sidebar />}
+          {auth && <Topbar />}
           <Routes>
             {/* <Route path="/*" element={<Landingpage />} /> */}
             {auth && <Route  path="/home" element={<Home />} />}

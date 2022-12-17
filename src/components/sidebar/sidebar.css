@@ -1,0 +1,122 @@
+.sidebar {
+  flex: .2;
+  min-height: calc(100vh);
+  position: sticky;
+  margin-top: 20px;
+  z-index: 60;
+  margin-left: 0px;
+  overflow-y: hidden;
+  max-width: 200px;
+overflow-x: hidden;
+  display: flex;
+  align-content: space-around;
+}
+
+.sidebarWrapper {
+  color: #555;
+}
+
+.sidebarMenu {
+  margin-bottom: 10px;
+  background: #fff;
+  padding:150px 20px;
+border-radius: 20px;
+    margin-top: 10px;
+}
+
+.sidebarTitle {
+  font-size: 19px;
+  color: rgb(187, 186, 186);
+}
+
+.sidebarList {
+  list-style: none;
+  padding: 5px;
+  font-size: 18px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebarListItem {
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.sidebarListItem.active,
+.sidebarListItem:hover {
+
+   color: rgb(0, 0, 0);
+   font-size: 20px;
+   font-weight: 500;
+
+}
+
+.sidebarIcon{
+    margin-right: 10px;
+    margin-left: 15px;
+    font-size: 25px !important;
+}
+.sidebarIcon.active{
+  color: rgb(6, 6, 6);
+
+}
+.sidebarprofile{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+  padding: 3px 20px 20px 20px;
+    border-radius: 20px;
+}
+.topAvatar2{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.sidebarprofile p{
+  font-size: 15px;
+  font-weight: 600;
+  color: #555;
+}
+.sidebarprofileinfo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 45px;
+}
+.profileinfocard{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.profileinfocard button{
+border: none;
+  background: #000000;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-weight: 400;
+  cursor: pointer;
+  padding: 8px 33px 10px 33px;
+  border-radius: 12px;
+  margin: 0px 10px -6px 10px;
+ 
+
+}
+.sidebarLogo img{
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+
+}
+.sidebarLogo {
+  display: flex;
+  justify-content: center;
+
+}

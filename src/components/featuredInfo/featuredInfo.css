@@ -1,0 +1,398 @@
+.featured {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  min-height: 93vh;
+  margin-right: 30px;
+  margin-top: 15px;
+}
+
+.featuredItem1 {
+  flex: .8;
+  margin: 0px 20px 0px 30px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 40px;
+
+}
+.featuredItem2 {
+    flex: 1.5;
+    margin: 0px 20px;
+    border-radius: 30px;
+    position: relative;
+    background: url('');
+    -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position: center;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-between;
+            display: flex;
+            padding: 30px;
+
+}
+.featuredItem3 {
+    flex: 2.8;
+    margin: 0px 35px 0px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    background: rgb(234 234 234);
+    padding: 20px;
+
+}
+.featuredTitle{
+    font-size: 20px;
+}
+
+.featuredMoneyContainer{
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.featuredMoney{
+    font-size: 30px;
+    font-weight: 600;
+}
+.foodCardPercent1{
+    background: rgb(236, 239, 255);
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.featuredMoneyRate{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.featuredIcon{
+    font-size: 14px;
+    margin-left: 5px;
+    color: green;
+}
+
+.featuredIcon.negative{
+    color: red;
+}
+
+.featuredSub{
+    font-size: 15px;
+    color: gray;
+}
+.searchBox{
+    background: #fff;
+    border-radius: 20px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    gap: 5px;
+    
+}
+.searchBox input{
+    width: 80%;
+        padding: 10px;
+            border-radius: 20px;
+            border: 1px solid #b0b0b0;
+}
+.searchBox button{
+    width: 20%;
+    background: #ffc52952;
+    border: none;
+    color: #000;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+.searchBox button:disabled{
+    width: 20%;
+    background: #494846c3;
+    border: none;
+    color: #000;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+.topAvatar1{
+    width: 20px;
+    height: 20px;
+}
+.foodInfoChild{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.foodInfoBottom {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px;
+}
+.widgetSm1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 20px;
+}
+
+.foodinfobutton:disabled{
+    background-color: rgba(211, 208, 208, 0);
+    outline: solid 1px #000;
+    color: rgb(8, 7, 7);
+    pointer-events: none;
+    cursor: none;
+}
+
+.profilecard{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    padding: 20px 20px 15px 20px;
+    background: #e7e7e7;
+    border-radius: 30px;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+.mallcard{
+    display: flex;
+    flex: 1.5;
+    align-items: center;
+    gap: 10px;
+    padding: 30px;
+background: #C2DFF2;
+    background: linear-gradient(315deg, #F8FAFE, #C2DFF2);
+    box-shadow: 0 3px 15px rgb(194 223 242 / 50%);
+        border-radius: 20px;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.sidebarprofileinfo_username p{
+    font-size: 15px;
+    font-weight: 400;
+}
+.sidebarprofiletop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+.sidebarprofiletop-right button{
+    background: #f7f9fb00;
+    border: none;
+    outline: none;
+    cursor: pointer;
+        margin-top: 5px;
+    
+}
+.mallsmallcard{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    padding: 5px 20px;
+
+}
+.mallsmallcard-left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    justify-content: flex-start;
+    flex-direction: row;
+
+}
+.mallsmallcard-left img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20%;
+    border: 1px solid rgba(255, 255, 255, 0.211);
+}
+.mallsmallcard-right button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+background: #C2DFF2;
+    background: linear-gradient(315deg, #28EEFA, #a4faff);
+    box-shadow: 0 3px 15px rgba(173, 244, 255, 0.5);    color: #000;
+    padding: 5px 20px;
+    border-radius: 10px;
+    
+}
+.sidebarprofiletop-left p{
+    font-weight: 600;
+}
+.videobg {
+    width: 145%;
+
+}
+.videobg video{
+    border-radius: 20px;
+    
+}
+.featuredItem2-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+    
+}
+.featuredItem2-top-top{
+    width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #F7F9FB;
+    }
+
+.featuredItem2-top-top img{
+    width: 60px;
+    height: 60px;
+}
+.featuredItem2-top-top p{
+    color: #fff;
+    font-size: 30px;
+}
+.featuredItem2-top-top1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F7F9FB;
+}
+
+.featuredItem2-top-top1 img {
+    width: 60px;
+    height: 60px;
+}
+
+.featuredItem2-top-top1 p {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+.featuredItem2-bottom button{
+    background: #F7F9FB;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #000;
+    font-weight: 600;
+}
+.locationinput{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0px;
+    width: 100%;
+    flex-direction: row;
+    width: 100%;
+    z-index: 6;
+    background: #fff;
+    border-radius: 20px;
+    margin-top: 6px;
+}
+.locationinput input{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #4300b0;
+    width: 90%;
+    
+}
+.locationinput button{
+background: #c7e1f3;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #000;
+    font-weight: 600;
+    width: 95%;
+}
+.powerupcard{
+display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    flex-direction: column;
+    width: 100%;
+    z-index: 6;
+    height: 100%;
+    justify-content: space-between;
+}
+.locationinput-left img{
+    width: 135px;
+    height: 165px;
+    border-radius: 20px;
+
+}
+.locationinput-right{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    z-index: 6;
+    height: 100%;
+    justify-content: space-between;
+gap: 10px;
+    padding: 16px 0px 15px 0px;
+}
+.mycarimg img{
+    width: 213px;
+        height: 100px;
+}
+.mycarinfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    z-index: 6;
+    height: 100%;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 16px 0px 15px 0px;
+}
+.button{
+    background: #f7f9fb00;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #000;
+    font-weight: 600;
+    
+}
+.featuredItem2 button{
+    background: #f7f9fb00;
+        border: none;
+        outline: none;
+        cursor: arrow;
+}
+.featuredItem2-top1{
+    display: flex;
+    align-items: center;
+  gap: 20px;
+    width: 100%;
+    flex-direction: column;
+    
+}
