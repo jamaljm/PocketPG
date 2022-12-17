@@ -14,32 +14,32 @@ import { LocationOn, Call } from "@material-ui/icons";
 export default function Sidebar() {
   const name = window.localStorage.getItem("name");
   return (
-  <div class="flex flex-col w-64 h-max px-4 py-8 bg-white border-r dark:bg-gray-900 dark:border-gray-700">
+  <div class="flex flex-col w-75 h-max px-4 py-8 bg-white border-r dark:bg-gray-900 dark:border-gray-700">
       
       <div class="bg-white dark:bg-gray-900">
     <div class="container px-1 py-4 mx-auto">
 
        
         <div class="flex gap-3">
-            <div class="w-30 h-fit p-8 space-y-1 text-center border border-gray-200 rounded-lg dark:border-gray-700 bg-sky-500 hover:bg-sky-700">
+            <div class="minw-20 h-fit px-8 py-3 space-y-1 text-center border border-gray-700 rounded-lg dark:border-gray-700 hover:bg-sky-700">
 
-               
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAABmJLR0QA/wD/AP+gvaeTAAADHklEQVR4nO3cz0sUYQDG8efVtVp/tEFYiVt0CZbMhA5ZN09dJDIij3lqoyw6BfUXVAQRqJB0Sbp1CSkIOkWXKLypIEFQuuBBPKi1iz923w4h0qpra+87z5v7fI7OzDvDfH1nfBkQEKlkJrIzXezvgbX3f5/V3MOrm0ORnTtg/gNcfhzH8q4nANJFW14gm7uOd3d+er+GgPkNcKkvhbx5CaB1w+0WE4DtxvCtUa/XEbAqbyNfGLiCvBnBZjcfAAxSgPmMrr7b3q4jcO5nwLlHdaiNDwDoKd4Ua2gAAKwsLGx05BCyud5KeyS5DVDikRNPJpFoOQlUGcyPjyE7+X398RX4SHIX4PxgLaqXvwFo/OMEsRgSLa2IJw//sXsuM4W58VHYlZXikWaQrzmK19eyzq4tYNXORvryZhmpzhkAXas/itXVY3/7GexuPLBu95q9CexpasLS7CwKS4trGwx6MXxjxNl1Bc79O6Cr/zmAntVHjonFSu5uC/m1R1LiENCUcn5J/ygDa9J42PLWx+Du/wrK5nphbPe+tlNb3nwAMFXVSLS2Ac3HgYPHnF+OA0kYO+hrcG/rgKZnk7ac/ae/zvu6FDcenPByr/ytA+SvbP2MiMpmv2F3x2wQ+3miGUDmbQbYxYpa0G6btwCFbOAv1UA4e7Of/jDXaa0dBEyzqzHDZDLW2vRIR8LJusDZO8Ba83Tn33wAsElj4GxdoJcwmcMZYNOAybgaL2BTKKz7urdtzld35a6A/zfTV484vWd6BJEpAJkCkCkAmQKQKQCZApBF/j3gx8dPJbfXn20P+njXNAPIFIBMAcgUgEwByBSATAHI9D2gTPoesMMoAJkCkCkAmQKQKQCZApDpe0CZx7umGUCmAGQKQKYAZApApgBkCkCm7wFl0veAHUYByBSATAHIFIBMAcgUgMz594Dg//NVYDQDyBSATAHIFIBMAcgUgEwByKL/v6ET70tvT3Vs7zhX42x2nCeaAWQKQKYAZApApgBkCkCmAGTRrwMi/js7uPMX0QwgUwAyBSBTADIFIFMAMgUQERERERERkQj9Alhivcf6L4GbAAAAAElFTkSuQmCC"></img>
+                
 
-                <p class="font-medium text-gray-500 dark:text-gray-300">Life time</p>
-
-               
-            </div>
-            <div class="w-full p-8 space-y-4 text-center border border-gray-200 rounded-lg dark:border-gray-700">
-                <p class="font-medium text-gray-500 uppercase dark:text-gray-300">Free</p>
-
-               
-
-                <p class="font-medium text-gray-500 dark:text-gray-300">Life time</p>
+                <p class="font-medium text-gray-500 dark:text-gray-300">PG</p>
 
                
             </div>
+            <div class="minw-20 h-fit px-8 py-3 space-y-1 text-center border border-gray-700 rounded-lg dark:border-gray-700 hover:bg-sky-700">
 
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAABmJLR0QA/wD/AP+gvaeTAAADHklEQVR4nO3cz0sUYQDG8efVtVp/tEFYiVt0CZbMhA5ZN09dJDIij3lqoyw6BfUXVAQRqJB0Sbp1CSkIOkWXKLypIEFQuuBBPKi1iz923w4h0qpra+87z5v7fI7OzDvDfH1nfBkQEKlkJrIzXezvgbX3f5/V3MOrm0ORnTtg/gNcfhzH8q4nANJFW14gm7uOd3d+er+GgPkNcKkvhbx5CaB1w+0WE4DtxvCtUa/XEbAqbyNfGLiCvBnBZjcfAAxSgPmMrr7b3q4jcO5nwLlHdaiNDwDoKd4Ua2gAAKwsLGx05BCyud5KeyS5DVDikRNPJpFoOQlUGcyPjyE7+X398RX4SHIX4PxgLaqXvwFo/OMEsRgSLa2IJw//sXsuM4W58VHYlZXikWaQrzmK19eyzq4tYNXORvryZhmpzhkAXas/itXVY3/7GexuPLBu95q9CexpasLS7CwKS4trGwx6MXxjxNl1Bc79O6Cr/zmAntVHjonFSu5uC/m1R1LiENCUcn5J/ygDa9J42PLWx+Du/wrK5nphbPe+tlNb3nwAMFXVSLS2Ac3HgYPHnF+OA0kYO+hrcG/rgKZnk7ac/ae/zvu6FDcenPByr/ytA+SvbP2MiMpmv2F3x2wQ+3miGUDmbQbYxYpa0G6btwCFbOAv1UA4e7Of/jDXaa0dBEyzqzHDZDLW2vRIR8LJusDZO8Ba83Tn33wAsElj4GxdoJcwmcMZYNOAybgaL2BTKKz7urdtzld35a6A/zfTV484vWd6BJEpAJkCkCkAmQKQKQCZApBF/j3gx8dPJbfXn20P+njXNAPIFIBMAcgUgEwByBSATAHI9D2gTPoesMMoAJkCkCkAmQKQKQCZApDpe0CZx7umGUCmAGQKQKYAZApApgBkCkCm7wFl0veAHUYByBSATAHIFIBMAcgUgMz594Dg//NVYDQDyBSATAHIFIBMAcgUgEwByKL/v6ET70tvT3Vs7zhX42x2nCeaAWQKQKYAZApApgBkCkCmAGTRrwMi/js7uPMX0QwgUwAyBSBTADIFIFMAMgUQERERERERkQj9Alhivcf6L4GbAAAAAElFTkSuQmCC"></img>
+                
 
+                <p class="font-medium text-gray-500 dark:text-gray-300">PG</p>
+
+               
+            </div>
+    
             </div>
     </div>
 </div>
