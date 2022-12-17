@@ -4,7 +4,8 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { TbSquareDot } from "react-icons/tb";
 import { useNavigate } from "react-router-dom";
-import Foodbox1 from "../foodbox/mallcard";
+import hostelcard from "../hostelcard/hostelcard";
+import Mallcard from "../wastebox/mallcard";
 
 
 
@@ -19,12 +20,11 @@ export default function FeaturedInfo() {
     <div className="featured">
         <div className="featuredItem3 overflow-auto">
         
-     <Foodbox1 />
-     <Foodbox1 />
-     <Foodbox1 />
-     <Foodbox1 />
-     <Foodbox1 />
-
+     <Mallcard />
+     <Mallcard />
+     <Mallcard />
+     <Mallcard />
+     <Mallcard />
         </div>
       <div className="featuredItem1">
         <div className="mapbox">

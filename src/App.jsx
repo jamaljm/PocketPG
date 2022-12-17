@@ -15,7 +15,11 @@ import {
 import { useState } from "react";
 import { Dashboard } from "@material-ui/icons";
 import Topbar from "./components/topbar/topbar";
-import HostelPage from "./pages/foodpage/hostelpage";
+import FoodPage from "./pages/foodpage/foodpage";
+import LaundryPage from "./pages/laundrypage/laundrypage";
+import WastePage from "./pages/wastepage/wastepage";
+
+
 
 function App() {
   
@@ -36,7 +40,11 @@ function App() {
           <Routes>
             {/* <Route path="/*" element={<Landingpage />} /> */}
           {auth && <Route path="/home" element={<Home />} />}
-          {auth && <Route  path="/hostel" element={<HostelPage />} />}
+          {auth && <Route path="/foodpage" element={<FoodPage />} />}
+          {auth && <Route path="/laundrypage" element={<LaundryPage />} />}
+            {auth && <Route  path="/wastepage" element={<WastePage />} />}
+
+
             {!auth ? (
               <Route exact path="/" element={<SignupPage />} />
             ) : (

@@ -1,16 +1,18 @@
 import React from 'react';
 import FeaturedInfo from '../../components/featuredInfo/FeaturedInfo';
-import Hostelcard from '../../components/food/food';
+import Wastepage from '../../components/waste/waste';
 import Sidebar from '../../components/sidebar/Sidebar';
+import Sidebar3 from '../../components/sidebar/Sidebar3';
 
 
 
-export default function HostelPage() {
+
+export default function FoodPage() {
   return (
     <div className='home'>
-      <Sidebar />
+      <Sidebar3 />
    
-      <Hostelcard />
+      <Wastepage />
       
     </div>
 

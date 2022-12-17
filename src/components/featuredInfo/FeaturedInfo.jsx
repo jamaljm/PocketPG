@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import { TbSquareDot } from "react-icons/tb";
 import { useNavigate } from "react-router-dom";
 import hostelcard from "../hostelcard/hostelcard";
-import Mallcard from "../mallcard1/mallcard";
+import Mallcard from "../hostelbox/mallcard";
 
 
 
