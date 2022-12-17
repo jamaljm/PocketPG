@@ -65,7 +65,7 @@ export default function Sidebar() {
           <div class="flex gap-3">
                 <a href="http://localhost:3000/laundrypage" class="font-medium text-blue-600 dark:text-blue-500 hover:text-gray-800 no-underline">
               
-            <div class="minw-20 h-fit px-6 py-3 space-y-1 text-center border-2 border-gray-700 rounded-lg dark:border-gray-700 hover:bg-slate-200">
+            <div class="minw-20 h-fit px-6 py-3 space-y-1 text-center border border-gray-300 rounded-lg dark:border-gray-700 hover:bg-slate-200">
 
                 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAD30lEQVRoge2Yy24jRRSGv6rudrfjC0mcmITR5GJ2M1yEEDBsWLJD4inmKViAhgdCYsmOBQgWKNIIsRgxTiZAgh1PEl/SbXd3FYvOOEZju+2yk8xI/ldV6nNO/X9dz2lYYIEFFrhNiDSDz//ofu3lna+kJaybIPQCcazjoBV+88M999E4u1QBXxyqyLph8i8QRyr+fsuyx9mM/QhwHeSP/myhlB76TVqCzUohGduWqWPLaQb+NufzKOdP3B+FUeQBVDz62zBMJUADWuuJ+zeB1DPw5T/zZ3T0tDVypge3EMB3b4mxHFPPwHVgkOCsmGoLvYpIXYG/nzRvgocxXvsVeO0FzPUQ61Chaz5RzUd3InQQoQUIz0bmbGTZw1pfQjjzm7f5CIg10UGbuNqESKMZuCIF6E5I3AmJahdgn5HZLWJt5RHW7EJmFxDEhHsN1HlvMvtI0Xtyhjju4H1QRnizZSozCdBBTPRzDd2Lr/gF5/hnB4SdE+JeBwCZyZHJr+GubGO5yRugWiH+r8d4n7yJdM1pmHvGmui3BrobJ++5VrSOHuOf7gP/f2XjoIkfNAlOnuKWdslt3Ach0d2Y7l4d76MNhExNCobCeBOqahvdDJOOVpwd/IR/Wn2J/CA0EDSqNA9+Aa2SOM0e4UHLlIaZAB0q4v2rQZvHj+l1Tib2D9t1Lo5/v+rvn6NDZULFUMC/PkTJTEfdc/zn+1PHCBpV4iB55XWkiOoXJlTMBKh6t9/2T58xbtuMQ/f0Wb8d19PriGEwOsS6FfbbvU5tav+Vnc+wc6tooVFcnoVOmOI1HGaHuHt1bcbh9DOXWSoN9JLbRwWREZVXJhcaX7aMhpGAwdfTcrJT+4d+4+WYho+ZkZfIO+hOsuSZfJmoO909/rz6IwDe2tssbd4DQObMBJitQNntt7PL24j00noo3NWtftsqLxnFMBSQBTshbbtFsqs7U8fwSpV+XoQtcdZvUoAjsQYK88LGu2Ry6xP7O/l1spv3+/3MbhFss/vE+BaSO3lE0Uk6QrK8/SnZUmXsdhJAtlShsPOgbyffcHG2iqY0ZshGpcD+sJSk090YhKSw8R7Z5Z0knW7XicMkPbCcJZxCGXflbn/baJLbzHt/zTgTnU0AIFwL50GZcK+BvixobK9IfuOdvo0e4DZYqcmCkxQ07i0WNAB4FvbH66j9NtFlSTl+RIlTKeJsFWCGme+HmzkCIKTAqhSQd3Oomo+q+6h2UtTTL+odZNnDLmeND+wwzPWvhHAk1p0c1p3cPMOOxQRTIf66fhojcZhmkCpAa/3wlkQconh4C+MusMACC0yB/wCthmRJe0h9jgAAAABJRU5ErkJggg=="></img>                
 
@@ -77,7 +77,7 @@ export default function Sidebar() {
             
             <a href="http://localhost:3000/wastepage" class="font-medium text-blue-600 dark:text-blue-500 hover:text-gray-800 no-underline">
               
-            <div class="minw-20 h-fit px-7 py-3 space-y-1 text-center border border-gray-300 rounded-lg dark:border-gray-700 hover:bg-slate-200">
+            <div class="minw-20 h-fit px-7 py-3 space-y-1 text-center border-2 border-gray-700 rounded-lg dark:border-gray-700 hover:bg-slate-200">
 
                 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAACVUlEQVRoge2ZvW4TQRDHf3u+BNlOSARKUgBSUAoeAEpqKNJE9IjOdDSUFMAD0BMoeQCoQIiGhg7xAEgJ5AOJfIDs4LOt3N0ORQQCRI5Z395ZFvdrdzUz/53Zu51dqKj4vzFFGL345v4ywipwJpchYdsYWm8v331x3JQgl4PjsDwkb/AAhrMCq1lTwqxBbyuZj3NZg9kZ8LWSBVJMCfllK2swU4AxtBC2/cbjxJaItLImqL5C55+0BsAJLyHpGXy4/qj+r0naEurkDGYYVD4rAQUy5gKMRwGiNOYV8ZkBpTGfiE8BwQgEeC0hrTHPjHcJ+c1AIKULCMR4FGCDdq5ohiA1VuVTmYHySyi0uqwrMzCCPVDzuQeUxrziMwMm1W0on5jYehTQnig/A92pA8009bVKyU2NqpkBt564zCyofVUCCmLMBTgcHtUCSm1qHA6P+gyUeCLVNjPgIKDUpqaIEiq5qVH7yryd/g2hU8Rrgo0T+nv7xFHvKKBGncnZk+ofpj4DBTQ1Nk442Njk8FsXsRaxlrgb0fu0c+vUnSuZ1+o/w1J7K2AP9Pf2kdQyMdVkdmmRmaVFwmYDEduUIHmgsaEXUEBP8KNsGgtzmDAkCEOaC/MAiHBVY8PlR7bpHGE+RDNJLWD9xuP3wMbQ4fyFsHF04Iw+72KTBBsnRDu7ABh4qbLh4lBEbhpjnuPpZac+d5qkPyCJenTWPv469MWE9rbGRs3FYfvpu7WZlUuvjOECMI/jAvxJUKsxOT2NpEmaHsYC9A08C0J77eu916N8GaqoGBu+A4ZK15OSS2tsAAAAAElFTkSuQmCC"></img>
                 

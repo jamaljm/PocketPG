@@ -1,6 +1,6 @@
 import React from 'react';
-import Hosteldet from '../../components/hosteldet/hosteldet';
-import Sidebar from '../../components/sidebar/Sidebar';
+import Wastedet from '../../components/wastedet/hosteldet';
+import Sidebar3 from '../../components/sidebar/Sidebar4';
 import "./home.css";
 
 
@@ -8,9 +8,9 @@ import "./home.css";
 export default function home() {
   return (
     <div className='home'>
-      <Sidebar />
+      <Sidebar3 />
     
-      <Hosteldet />
+      <Wastedet />
       
     </div>
 

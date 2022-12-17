@@ -32,7 +32,7 @@ export default function Sidebar() {
        
           <div class="flex gap-3">
             <a href="http://localhost:3000/home" class="font-medium  text-blue-600 dark:text-blue-500 hover:text-gray-800 no-underline">
-            <div class="min-w-50 h-fit px-8 py-3 space-y-1 text-center border border-gray-300 rounded-lg dark:border-gray-700 hover:bg-slate-100	">
+            <div class="min-w-50 h-fit px-8 py-3 space-y-1 text-center border-2 border-gray-700 rounded-lg dark:border-gray-700 hover:bg-slate-100	">
 
               <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAABmUlEQVRoge2YvUsDQRDF391FNMaQwlgIKpaCh4UiooiKhYUg5i9IbNRCsLbTMmBpUtmItY0Eey0OCVpJCDYiqJBCLGKCNrk7GxVPEjN7H6wH8+t2d3b3PWaHgQVCjiK8YyU3Cg3HAGzYVhqn22X/ZdFRhaJX82loKAIYBzABRb1GKrcRiDIitAws7cfQHc0DyABAdGAQAPD+9PgVcQSzYwuFzbcANP5JhBQV61qGjYyiaUjoY98GOnuTqJZuYJvmGtTGGYCTALU2hV4DqYO9vrnF3Ug87phu1Gp4Lt8DyWG/NBnI6rPUYKEi7j98sJvNV+5eRY5pT1Yn66I9IZELd0q25zkBhAxY9RfR8wOHlKrJi6oBYCZgLb8xruYTbWuB1AcUBZZ3PcKQ7iQXS6sCDorK+hBJm1gn/oewAdm47gP1y6Jj3DM95es6ldBngA3IhvuAbNiAbLgPyIYNyIb7gGzYgGzIfcD3zyufCH0G2IBs3P+N3p47xyMLrdcoMT/XBAh9BtiAbNzXgMs369v+T0KfATbAMAzjiQ/T+W02XseO4wAAAABJRU5ErkJggg=="></img>
               
@@ -77,7 +77,7 @@ export default function Sidebar() {
             
             <a href="http://localhost:3000/wastepage" class="font-medium text-blue-600 dark:text-blue-500 hover:text-gray-800 no-underline">
               
-            <div class="minw-20 h-fit px-7 py-3 space-y-1 text-center border-2 border-gray-700 rounded-lg dark:border-gray-700 hover:bg-slate-200">
+            <div class="minw-20 h-fit px-7 py-3 space-y-1 text-center border border-gray-300 rounded-lg dark:border-gray-700 hover:bg-slate-200">
 
                 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAACVUlEQVRoge2ZvW4TQRDHf3u+BNlOSARKUgBSUAoeAEpqKNJE9IjOdDSUFMAD0BMoeQCoQIiGhg7xAEgJ5AOJfIDs4LOt3N0ORQQCRI5Z395ZFvdrdzUz/53Zu51dqKj4vzFFGL345v4ywipwJpchYdsYWm8v331x3JQgl4PjsDwkb/AAhrMCq1lTwqxBbyuZj3NZg9kZ8LWSBVJMCfllK2swU4AxtBC2/cbjxJaItLImqL5C55+0BsAJLyHpGXy4/qj+r0naEurkDGYYVD4rAQUy5gKMRwGiNOYV8ZkBpTGfiE8BwQgEeC0hrTHPjHcJ+c1AIKULCMR4FGCDdq5ohiA1VuVTmYHySyi0uqwrMzCCPVDzuQeUxrziMwMm1W0on5jYehTQnig/A92pA8009bVKyU2NqpkBt564zCyofVUCCmLMBTgcHtUCSm1qHA6P+gyUeCLVNjPgIKDUpqaIEiq5qVH7yryd/g2hU8Rrgo0T+nv7xFHvKKBGncnZk+ofpj4DBTQ1Nk442Njk8FsXsRaxlrgb0fu0c+vUnSuZ1+o/w1J7K2AP9Pf2kdQyMdVkdmmRmaVFwmYDEduUIHmgsaEXUEBP8KNsGgtzmDAkCEOaC/MAiHBVY8PlR7bpHGE+RDNJLWD9xuP3wMbQ4fyFsHF04Iw+72KTBBsnRDu7ABh4qbLh4lBEbhpjnuPpZac+d5qkPyCJenTWPv469MWE9rbGRs3FYfvpu7WZlUuvjOECMI/jAvxJUKsxOT2NpEmaHsYC9A08C0J77eu916N8GaqoGBu+A4ZK15OSS2tsAAAAAElFTkSuQmCC"></img>
                 
@@ -97,7 +97,7 @@ export default function Sidebar() {
 
     <div class="flex flex-col justify-between flex-1 mt-8">
         <nav>
-            <a class="flex items-center px-4 py-2 text-gray-700 bg-gray-100 rounded-md dark:bg-gray-800 dark:text-gray-200" href="#">
+            <a class="flex items-center px-4 py-2 text-gray-700  rounded-md dark:bg-gray-800 dark:text-gray-200" href="http://localhost:3000/">
                 <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M19 11H5M19 11C20.1046 11 21 11.8954 21 13V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V13C3 11.8954 3.89543 11 5 11M19 11V9C19 7.89543 18.1046 7 17 7M5 11V9C5 7.89543 5.89543 7 7 7M7 7V5C7 3.89543 7.89543 3 9 3H15C16.1046 3 17 3.89543 17 5V7M7 7H17"
@@ -107,7 +107,7 @@ export default function Sidebar() {
                 <span class="mx-4 font-medium">Home</span>
             </a>
 
-            <a class="flex items-center px-4 py-2 mt-5 text-gray-600 transition-colors duration-300 transform rounded-md dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700" href="#">
+            <a class="flex items-center px-4 py-2 mt-5 text-gray-600 transition-colors duration-300 bg-gray-100 transform rounded-md dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700" href="http://localhost:3000/profiledet">
                 <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     <path d="M12 14C8.13401 14 5 17.134 5 21H19C19 17.134 15.866 14 12 14Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />

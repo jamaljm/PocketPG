@@ -22,6 +22,7 @@ import Hosteldet from "./pages/hosteldet/hosteldet";
 import Fooddet from "./pages/fooddet/hosteldet";
 import Wastedet from "./pages/wastedet/hosteldet";
 import Laundrydet from "./pages/laundrydet/hosteldet";
+import Profiledet from "./pages/profile/profiledata";
 
 
 
@@ -51,7 +52,9 @@ function App() {
           {auth && <Route path="/hosteldet" element={<Hosteldet />} />}\
              {auth && <Route  path="/fooddet" element={<Fooddet />} />}
             {auth && <Route  path="/wastedet" element={<Wastedet />} />}
-           {auth && <Route  path="/laundrydet" element={<Laundrydet />} />}
+          {auth && <Route path="/laundrydet" element={<Laundrydet />} />}
+                     {auth && <Route  path="/profiledet" element={<Profiledet />} />}
+
 
           
 

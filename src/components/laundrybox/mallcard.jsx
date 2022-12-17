@@ -67,10 +67,12 @@ export default function Mallcard() {
                         
                         
                   </div>
-                    <button class=" w-full bg-slate-700 hover:bg-black-700 text-white text-base py-2 px-4 rounded">
+              <a href='http://localhost:3000/laundrydet'>
+                      <button class=" w-full bg-slate-700 hover:bg-black-700 text-white text-base py-2 px-4 rounded">
                               Book Now
                               
-                         </button>   
+                      </button> 
+                      </a> 
                 </div>
               
 
