@@ -17,10 +17,10 @@ export default function Mallcard() {
             <div className="foodCardBottom">
                 <div className="foodCardBottomLeft">
 
-                    <img src="https://www.manjulaskitchen.com/wp-content/uploads/everyday-lunch-menu.jpg" alt="" className="foodimage" />
+                    <img src="https://media.istockphoto.com/id/856794670/photo/beautiful-luxury-home-exterior-with-green-grass-and-landscaped-yard.jpg?s=612x612&w=0&k=20&c=Jaun3vYekdy6aBcqq5uDQp_neNp5jmdLZXZAqqhcjk8=" alt="" className="foodimage" />
                 </div>
                 <div className="foodCardBottomRight">
-                    <h3 className='text-base'>Anand Meals</h3>
+                    <h3 className='text-base'>Arakkal House</h3>
                     <div className="foodInfo">
                          <ul class="flex justify-center mb-4">
                                 <li>
@@ -52,10 +52,11 @@ export default function Mallcard() {
                         <div className="foodInfoBottom">
                             <div className="foodInfoChild">
                                 <LocationOn />
-                                <span className="foodInfoKey text-sm">Edappally   </span>
+                                <span className="foodInfoKey text-sm">Near MEC   </span>
                           </div>
                            <div className="foodInfoChild">
-                                 <span className="foodInfoKey text-b">₹100   </span>
+                                                               <span className="foodInfoKey text-b">₹5000   </span>
+
                             </div>
                         </div>
                    
@@ -66,11 +67,12 @@ export default function Mallcard() {
                         
                         
                   </div>
-                  <a href='http://localhost:3000/fooddet'>
-                    <button class=" w-full bg-slate-700 hover:bg-black-700 text-white text-base py-2 px-4 rounded">
+                  <a href='http://localhost:3000/hosteldet'>
+                      <button class=" w-full bg-slate-700 hover:bg-black-700 text-white text-base py-2 px-4 rounded">
                               Book Now
                               
-                         </button>   </a>
+                      </button> 
+                      </a>
                 </div>
               
 

@@ -6,6 +6,11 @@ import { TbSquareDot } from "react-icons/tb";
 import { useNavigate } from "react-router-dom";
 import hostelcard from "../hostelcard/hostelcard";
 import Mallcard from "../hostelbox/mallcard";
+import Mallcard1 from "../hostelbox/mallcard1";
+import Mallcard2 from "../hostelbox/mallcard2";
+import Mallcard3 from "../hostelbox/mallcard3";
+import Mallcard4 from "../hostelbox/mallcard4";
+
 
 
 
@@ -21,10 +26,10 @@ export default function FeaturedInfo() {
         <div className="featuredItem3 overflow-auto">
         
      <Mallcard />
-     <Mallcard />
-     <Mallcard />
-     <Mallcard />
-     <Mallcard />
+     <Mallcard1 />
+     <Mallcard2 />
+     <Mallcard3 />
+     <Mallcard4 />
         </div>
       <div className="featuredItem1">
         <div className="mapbox">

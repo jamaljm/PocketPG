@@ -17,10 +17,10 @@ export default function Mallcard() {
             <div className="foodCardBottom">
                 <div className="foodCardBottomLeft">
 
-                    <img src="https://www.manjulaskitchen.com/wp-content/uploads/everyday-lunch-menu.jpg" alt="" className="foodimage" />
+                    <img src="https://assets.epicurious.com/photos/587e4dfa11ede9a3617eea49/4:3/w_1723,h_1292,c_limit/Coconut-Chicken-Curry-17012017.jpg" alt="" className="foodimage" />
                 </div>
                 <div className="foodCardBottomRight">
-                    <h3 className='text-base'>Anand Meals</h3>
+                    <h3 className='text-base'>Riya Foods</h3>
                     <div className="foodInfo">
                          <ul class="flex justify-center mb-4">
                                 <li>
@@ -55,7 +55,7 @@ export default function Mallcard() {
                                 <span className="foodInfoKey text-sm">Edappally   </span>
                           </div>
                            <div className="foodInfoChild">
-                                 <span className="foodInfoKey text-b">₹100   </span>
+                               <span className="foodInfoKey text-b">₹130   </span>
                             </div>
                         </div>
                    

@@ -17,10 +17,10 @@ export default function Mallcard() {
             <div className="foodCardBottom">
                 <div className="foodCardBottomLeft">
 
-                    <img src="https://kerala.mallsmarket.com/sites/default/files/photos/malls/lulu-mall-thiruvananthapuram-1.jpg" alt="" className="foodimage" />
+                    <img src="https://www.mydomaine.com/thmb/yE8D0r4ov5b3VKlF6Kshd9lrR5c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/binary-4--583f06853df78c6f6a9e0b7a.jpeg" alt="" className="foodimage" />
                 </div>
                 <div className="foodCardBottomRight">
-                    <h3 className='text-base'>LuLu International Mall</h3>
+                    <h3 className='text-base'>Yash House</h3>
                     <div className="foodInfo">
                          <ul class="flex justify-center mb-4">
                                 <li>
@@ -55,8 +55,8 @@ export default function Mallcard() {
                                 <span className="foodInfoKey text-sm">Edappally   </span>
                           </div>
                            <div className="foodInfoChild">
-                                <LocationOn />
-                                <span className="foodInfoKey text-sm">Edappally   </span>
+                                <span className="foodInfoKey text-b">₹6000   </span>
+
                             </div>
                         </div>
                    
@@ -67,7 +67,7 @@ export default function Mallcard() {
                         
                         
                   </div>
-                  <a href='http://localhost:3000/hosteldet'>
+                  <a href='http://localhost:3000/hosteldet' className='w-full'>
                       <button class=" w-full bg-slate-700 hover:bg-black-700 text-white text-base py-2 px-4 rounded">
                               Book Now
                               

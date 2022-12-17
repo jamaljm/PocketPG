@@ -4,7 +4,12 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { TbSquareDot } from "react-icons/tb";
 import { useNavigate } from "react-router-dom";
-import Foodbox1 from "../foodbox/mallcard";
+import Foodbox from "../foodbox/mallcard";
+import Foodbox1 from "../foodbox/mallcard1";
+import Foodbox2 from "../foodbox/mallcard2";
+import Foodbox3 from "../foodbox/mallcard3";
+import Foodbox4 from "../foodbox/mallcard4";
+
 
 
 
@@ -19,11 +24,11 @@ export default function FeaturedInfo() {
     <div className="featured">
         <div className="featuredItem3 overflow-auto">
         
+     <Foodbox />
      <Foodbox1 />
-     <Foodbox1 />
-     <Foodbox1 />
-     <Foodbox1 />
-     <Foodbox1 />
+     <Foodbox2 />
+     <Foodbox3 />
+     <Foodbox4 />
 
         </div>
       <div className="featuredItem1">

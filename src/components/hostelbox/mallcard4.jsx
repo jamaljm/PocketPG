@@ -17,10 +17,10 @@ export default function Mallcard() {
             <div className="foodCardBottom">
                 <div className="foodCardBottomLeft">
 
-                    <img src="https://www.manjulaskitchen.com/wp-content/uploads/everyday-lunch-menu.jpg" alt="" className="foodimage" />
+                    <img src="https://images.adsttc.com/media/images/603f/d6dc/f91c/8119/8000/031d/medium_jpg/15.jpg?1614796456" alt="" className="foodimage" />
                 </div>
                 <div className="foodCardBottomRight">
-                    <h3 className='text-base'>Anand Meals</h3>
+                    <h3 className='text-base'>LuLu International Mall</h3>
                     <div className="foodInfo">
                          <ul class="flex justify-center mb-4">
                                 <li>
@@ -55,7 +55,8 @@ export default function Mallcard() {
                                 <span className="foodInfoKey text-sm">Edappally   </span>
                           </div>
                            <div className="foodInfoChild">
-                                 <span className="foodInfoKey text-b">₹100   </span>
+                                <LocationOn />
+                                <span className="foodInfoKey text-sm">Edappally   </span>
                             </div>
                         </div>
                    
@@ -66,11 +67,12 @@ export default function Mallcard() {
                         
                         
                   </div>
-                  <a href='http://localhost:3000/fooddet'>
-                    <button class=" w-full bg-slate-700 hover:bg-black-700 text-white text-base py-2 px-4 rounded">
+                  <a href='http://localhost:3000/hosteldet'>
+                      <button class=" w-full bg-slate-700 hover:bg-black-700 text-white text-base py-2 px-4 rounded">
                               Book Now
                               
-                         </button>   </a>
+                      </button> 
+                      </a>
                 </div>
               
 

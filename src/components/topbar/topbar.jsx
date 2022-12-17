@@ -32,9 +32,7 @@ export default function Topbar() {
     
 
                 <div className="hidden lg:flex justify-end lg:items-center lg:space-x-10">
-                    <a href="#" title="" className="text-base font-medium text-black"> Sign up </a>
-
-                    <a href="#" title="" className="text-base font-medium text-black"> Sign in </a>
+               
 
                     <a href="#" title="" className="flex items-center justify-center w-fit h-10 px-6 text-white bg-black rounded-full">
                           <img className="w-auto h-4 lg:h-15 px-2" src={logout} alt="" />
