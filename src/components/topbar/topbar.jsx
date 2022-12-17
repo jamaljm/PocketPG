@@ -9,8 +9,8 @@ export default function Topbar() {
   const navigate = useNavigate();
 
   function Logout() {
+    window.localStorage.setItem("auth", "false");
     window.localStorage.removeItem("token");
-    window.localStorage.removeItem("auth");
     navigate("/login");
 
     window.location.reload();
@@ -34,11 +34,11 @@ export default function Topbar() {
                 <div className="hidden lg:flex justify-end lg:items-center lg:space-x-10">
                
 
-                    <a href="#" title="" className="flex items-center justify-center w-fit h-10 px-6 text-white bg-black rounded-full">
+                    <button onClick={Logout} title="" className="flex items-center justify-center w-fit h-10 px-6 text-white bg-black rounded-full">
                           <img className="w-auto h-4 lg:h-15 px-2" src={logout} alt="" />
 
-                            logout
-                    </a>
+                            Logout
+                    </button>
                 </div>
             </nav>
         </div>

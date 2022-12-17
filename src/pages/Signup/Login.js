@@ -11,7 +11,7 @@ function Login() {
     password: "",
   });
 
-  const [type, setType] = useState("volunteer");
+  const [type, setType] = useState("hostler");
   const [login, setLogin] = useState("");
   const [token, setToken] = useState("");
   const [loginorg, setLoginorg] = useState("");
@@ -28,7 +28,7 @@ function Login() {
     console.log(type, state);
     axios
       .post(
-        "https://bon-appetit-server.alapanoski.repl.co/api/auth/" +
+        "https://stockings-applies-sewing-opera.trycloudflare.com/api/" +
           type +
           "/login",
         state

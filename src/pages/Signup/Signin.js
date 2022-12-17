@@ -9,7 +9,11 @@ function SignupPage() {
   const [state, setState] = useState({
     name: "",
     email: "",
-
+    age : 0,
+    address: "",
+    college: "",
+    phno:0,
+    location: "",
     password: "",
   });
 
@@ -28,15 +32,19 @@ function SignupPage() {
   const handleSubmit1 = (e) => {
     e.preventDefault();
     console.log(type, state);
+    const userData = {
+        email : state.email,
+        name : state.name,
+        password : state.password,
+
+      };
     axios
       .post(
-        "" +
-          type +
-          "/signup",
-        state
+        "https://stockings-applies-sewing-opera.trycloudflare.com/api/signup-hostler/",
+         userData
       )
       .then((res) => {
-        if (res.data.message) {
+        
           setToken(res.data.token);
           console.log(res.data.token);
           window.localStorage.setItem("token", res.data.token);
@@ -46,9 +54,10 @@ function SignupPage() {
           navigate("/home");
           setLogin(res.data.message);
           window.location.reload();
-        }
+        
 
-        console.log(res);
+        console.log(res.data);
+        console.log(userData);
         // handle success
       })
       .catch((err) => {
@@ -132,9 +141,11 @@ function SignupPage() {
                                 </div>
 
                                 <input
-                                    type="text"
-                                    name=""
+                                    type="name"
+                                    name="name"
                                     id=""
+                                    value={state.name}
+                                    onChange={handleChange}
                                     placeholder="Enter your full name"
                                     className="block w-full py-4 pl-10 pr-4 text-black placeholder-gray-500 transition-all duration-200 border border-gray-200 rounded-md bg-gray-50 focus:outline-none focus:border-blue-600 focus:bg-white caret-blue-600"
                                 />
@@ -152,8 +163,11 @@ function SignupPage() {
 
                                 <input
                                     type="email"
-                                    name=""
+                                    name="email"
                                     id=""
+                                    value={state.email}
+                                    onChange={handleChange}
+
                                     placeholder="Enter email to get started"
                                     className="block w-full py-4 pl-10 pr-4 text-black placeholder-gray-500 transition-all duration-200 border border-gray-200 rounded-md bg-gray-50 focus:outline-none focus:border-blue-600 focus:bg-white caret-blue-600"
                                 />
@@ -176,8 +190,10 @@ function SignupPage() {
 
                                 <input
                                     type="password"
-                                    name=""
+                                    name="password"
                                     id=""
+                                    value={state.password}
+                                    onChange={handleChange}
                                     placeholder="Enter your password"
                                     className="block w-full py-4 pl-10 pr-4 text-black placeholder-gray-500 transition-all duration-200 border border-gray-200 rounded-md bg-gray-50 focus:outline-none focus:border-blue-600 focus:bg-white caret-blue-600"
                                 />
@@ -186,7 +202,7 @@ function SignupPage() {
 
                         <div>
                             <button
-                                type="submit"
+                                type="submit" onClick={handleSubmit1}
                                 className="inline-flex items-center justify-center w-full px-4 py-4 text-base font-semibold text-white transition-all duration-200 border border-transparent rounded-md bg-gradient-to-r bg-black focus:outline-none hover:opacity-80 focus:opacity-80"
                             >
                                 Sign up

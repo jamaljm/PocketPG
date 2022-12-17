@@ -30,7 +30,7 @@ import Profiledet from "./pages/profile/profiledata";
 function App() {
   
   const [auth, setAuth] = useState(
-    true || window.localStorage.getItem("auth") === "true"
+    false || window.localStorage.getItem("auth") === "true"
   );
 
   const navigate = useNavigate();
