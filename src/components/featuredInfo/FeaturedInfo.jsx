@@ -4,7 +4,8 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { TbSquareDot } from "react-icons/tb";
 import { useNavigate } from "react-router-dom";
-
+import hostelcard from "../hostelcard/hostelcard";
+import Mallcard from "../mallcard1/mallcard";
 
 
 
@@ -40,11 +41,10 @@ export default function FeaturedInfo() {
       {/* featured 2 */
       }
       <div className="featuredItem3">
-
-
-
-
-      </div>
+        
+     <Mallcard />
+        </div>
+      
 
       {/* featured 3 */}
 

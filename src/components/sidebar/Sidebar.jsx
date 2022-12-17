@@ -14,9 +14,9 @@ import { LocationOn, Call } from "@material-ui/icons";
 export default function Sidebar() {
   const name = window.localStorage.getItem("name");
   return (
-   <div class="flex flex-col w-80 h-max px-8 py-8 ml-5 bg-white border-r dark:bg-gray-900 dark:border-gray-700">
+   <div class="flex flex-col w-80 h-max px-8 pt-7 py-8 ml-1 bg-white border-r dark:bg-gray-900 dark:border-gray-700">
          
-      <div class="relative mt-3">
+      <div class="relative">
         <span class="absolute inset-y-0 left-0 flex items-center pl-3">
             <svg class="w-5 h-5 text-gray-400" viewBox="0 0 24 24" fill="none">
                 <path d="M21 21L15 15M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>

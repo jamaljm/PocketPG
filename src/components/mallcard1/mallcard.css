@@ -1,0 +1,123 @@
+.foodinfobottombutton {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-top: 0px;
+
+
+}
+
+/* .foodinfobottombutton button {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+} */
+
+.foodCardBottomRight h2 {
+    font-family: 'poppins';
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.foodCardTopRight {
+    font-size: 12px;
+}
+.foodCard {
+    background: #fff;
+    border-radius: 20px;
+    width: 100%;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+    border: .5px solid rgb(202, 202, 202);
+
+
+}
+
+.foodCardTop {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.foodCardTopLeft {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.foodCardTopRight {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.foodCardBottom {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 0px;
+    gap: 20px;
+    padding: 7px;
+}
+
+.foodCardBottomLeft {
+    display: flex;
+    gap: 10px;
+    overflow: hidden;
+
+}
+
+.foodCardBottomLeft img {
+    width: 219px;
+    height: 150px;
+    border-radius: 20px;
+
+
+}
+
+.foodCardBottomRight {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.foodInfoTop {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px;
+}
+
+.topAvatar1 {
+    width: 20px;
+    height: 20px;
+}
+
+.foodInfoChild {
+    display: flex;
+    gap: 2px;
+    align-items: center;
+}
+
+.foodInfoBottom {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 0px;
+}
+.foodInfo{
+    display: flex;
+    gap: 14px;
+    flex-direction: column;
+}
