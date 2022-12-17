@@ -14,7 +14,6 @@ import {
   useNavigate,
 } from "react-router-dom";
 import { useState } from "react";
-import Landingpage from "./components/Landingpage.js/Landingpage";
 import { Dashboard } from "@material-ui/icons";
 
 function App() {
