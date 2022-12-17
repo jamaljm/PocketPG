@@ -1,5 +1,7 @@
 body{
     overflow-y: hidden;
+    scrollbar-width: thin;
+        scrollbar-color: blue orange;
 }
 @tailwind base;
 @tailwind components;

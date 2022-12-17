@@ -1,4 +1,4 @@
-import "./featuredInfo.css";
+import "./food.css";
 import { CalendarToday, LocationOn, MoreVert } from "@material-ui/icons";
 import axios from "axios";
 import { useEffect, useState } from "react";
@@ -10,7 +10,7 @@ import Mallcard from "../mallcard1/mallcard";
 
 
 
-export default function FeaturedInfo() {
+export default function Hostel() {
  
   
 
@@ -18,14 +18,6 @@ export default function FeaturedInfo() {
   
   return (
     <div className="featured">
-        <div className="featuredItem3 overflow-auto">
-        
-     <Mallcard />
-     <Mallcard />
-     <Mallcard />
-     <Mallcard />
-     <Mallcard />
-        </div>
       <div className="featuredItem1">
         <div className="mapbox">
           <iframe
@@ -48,7 +40,14 @@ export default function FeaturedInfo() {
 
       {/* featured 2 */
       }
-    
+      <div className="featuredItem3 overflow-auto">
+        
+     <Mallcard />
+     <Mallcard />
+     <Mallcard />
+     <Mallcard />
+     <Mallcard />
+        </div>
       
 
       {/* featured 3 */}

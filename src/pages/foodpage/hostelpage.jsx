@@ -1,16 +1,16 @@
 import React from 'react';
 import FeaturedInfo from '../../components/featuredInfo/FeaturedInfo';
+import Hostelcard from '../../components/food/food';
 import Sidebar from '../../components/sidebar/Sidebar';
-import "./home.css";
 
 
 
-export default function home() {
+export default function HostelPage() {
   return (
     <div className='home'>
       <Sidebar />
-    
-      <FeaturedInfo />
+   
+      <Hostelcard />
       
     </div>
 

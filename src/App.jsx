@@ -15,6 +15,7 @@ import {
 import { useState } from "react";
 import { Dashboard } from "@material-ui/icons";
 import Topbar from "./components/topbar/topbar";
+import HostelPage from "./pages/foodpage/hostelpage";
 
 function App() {
   
@@ -34,7 +35,8 @@ function App() {
           {auth && <Topbar />}
           <Routes>
             {/* <Route path="/*" element={<Landingpage />} /> */}
-            {auth && <Route  path="/home" element={<Home />} />}
+          {auth && <Route path="/home" element={<Home />} />}
+          {auth && <Route  path="/hostel" element={<HostelPage />} />}
             {!auth ? (
               <Route exact path="/" element={<SignupPage />} />
             ) : (

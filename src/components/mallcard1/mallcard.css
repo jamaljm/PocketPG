@@ -29,15 +29,15 @@
     font-size: 12px;
 }
 .foodCard {
-    background: #fff;
     border-radius: 20px;
     width: 100%;
     padding: 8px;
     display: flex;
     flex-direction: column;
     gap: 0px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
-    border: .5px solid rgb(202, 202, 202);
+    background: rgba(148, 148, 148, 0.058);
+    /* box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055); */
+    /* border: .5px solid rgb(202, 202, 202); */
 
 
 }
@@ -107,7 +107,8 @@
 .foodInfoChild {
     display: flex;
     gap: 2px;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: left;
 }
 
 .foodInfoBottom {
@@ -118,6 +119,7 @@
 }
 .foodInfo{
     display: flex;
-    gap: 14px;
+    gap: 0px;
     flex-direction: column;
+    align-items: flex-start;
 }
