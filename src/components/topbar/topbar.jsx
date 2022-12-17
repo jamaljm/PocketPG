@@ -24,7 +24,7 @@ export default function Topbar() {
                 <div className="">
                     <div className="flex-shrink-0">
                         <a href="#" title="" className="flex">
-                            <img className="w-auto h-8 lg:h-10" src={logo} alt="" />
+                            <img className="w-auto h-8 lg:h-12" src={logo} alt="" />
                         </a>
                     </div>
                 </div>
@@ -36,8 +36,8 @@ export default function Topbar() {
 
                     <a href="#" title="" className="text-base font-medium text-black"> Sign in </a>
 
-                    <a href="#" title="" className="flex items-center justify-center w-fit h-10 px-10 text-white bg-black rounded-full">
-                          <img className="w-auto h-8 lg:h-10 px-3" src={logout} alt="" />
+                    <a href="#" title="" className="flex items-center justify-center w-fit h-10 px-6 text-white bg-black rounded-full">
+                          <img className="w-auto h-4 lg:h-15 px-2" src={logout} alt="" />
 
                             logout
                     </a>
@@ -60,13 +60,7 @@ export default function Topbar() {
 
             <div className="mt-6">
                 <div className="flex flex-col space-y-2">
-                    <a href="#" title="" className="py-2 text-base font-medium text-black transition-all duration-200 focus:text-blue-600"> Features </a>
-
-                    <a href="#" title="" className="py-2 text-base font-medium text-black transition-all duration-200 focus:text-blue-600"> Solutions </a>
-
-                    <a href="#" title="" className="py-2 text-base font-medium text-black transition-all duration-200 focus:text-blue-600"> Resources </a>
-
-                    <a href="#" title="" className="py-2 text-base font-medium text-black transition-all duration-200 focus:text-blue-600"> Pricing </a>
+                    
                 </div>
 
                 <hr className="my-4 border-gray-200" />

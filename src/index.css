@@ -1,4 +1,5 @@
 body{
+    overflow-y: hidden;
 }
 @tailwind base;
 @tailwind components;

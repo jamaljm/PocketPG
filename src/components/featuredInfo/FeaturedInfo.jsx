@@ -18,22 +18,31 @@ export default function FeaturedInfo() {
   return (
     <div className="featured">
       <div className="featuredItem1">
-
+        <div className="mapbox">
+          <iframe
+          src="https://www.google.com/maps/d/u/0/embed?mid=1-WJRtrxebwtiGIJr-cx-nrmpp3Qb_BY&ehbc=2E312F"
+          width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              aria-hidden="false"
+              tabIndex="10"
+        />
+        </div>
+        
         
         
       </div>
 
-      {/* feature 1 */}
 
-      <div className="featuredItem2">
-        
-
-      </div>
+    
 
       {/* featured 2 */
       }
       <div className="featuredItem3">
-        
+
+
+
 
       </div>
 
