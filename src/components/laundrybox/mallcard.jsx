@@ -17,10 +17,10 @@ export default function Mallcard() {
             <div className="foodCardBottom">
                 <div className="foodCardBottomLeft">
 
-                    <img src="https://kerala.mallsmarket.com/sites/default/files/photos/malls/lulu-mall-thiruvananthapuram-1.jpg" alt="" className="foodimage" />
+                    <img src="https://boltlaundry.com/wp-content/uploads/2020/10/Laundromat-Delivery-Service-In-St-Louis-MO.jpg" alt="" className="foodimage" />
                 </div>
                 <div className="foodCardBottomRight">
-                    <h3 className='text-base'>LuLu Intkjkjonal Mall</h3>
+                    <h3 className='text-base'>Athul Laundry</h3>
                     <div className="foodInfo">
                          <ul class="flex justify-center mb-4">
                                 <li>
@@ -52,11 +52,11 @@ export default function Mallcard() {
                         <div className="foodInfoBottom">
                             <div className="foodInfoChild">
                                 <LocationOn />
-                                <span className="foodInfoKey text-sm">Edappally   </span>
+                                <span className="foodInfoKey text-sm">Kadavu   </span>
                           </div>
                            <div className="foodInfoChild">
-                                <LocationOn />
-                                <span className="foodInfoKey text-sm">Edappally   </span>
+                                                                                              <span className="foodInfoKey text-b">₹35   </span>
+
                             </div>
                         </div>
                    

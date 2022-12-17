@@ -17,10 +17,10 @@ export default function Mallcard() {
             <div className="foodCardBottom">
                 <div className="foodCardBottomLeft">
 
-                    <img src="https://assets.epicurious.com/photos/587e4dfa11ede9a3617eea49/4:3/w_1723,h_1292,c_limit/Coconut-Chicken-Curry-17012017.jpg" alt="" className="foodimage" />
+                    <img src="https://kerala.mallsmarket.com/sites/default/files/photos/malls/lulu-mall-thiruvananthapuram-1.jpg" alt="" className="foodimage" />
                 </div>
                 <div className="foodCardBottomRight">
-                    <h3 className='text-base'>Riya Foods</h3>
+                    <h3 className='text-base'>LuLu waste Mall</h3>
                     <div className="foodInfo">
                          <ul class="flex justify-center mb-4">
                                 <li>
@@ -55,7 +55,8 @@ export default function Mallcard() {
                                 <span className="foodInfoKey text-sm">Edappally   </span>
                           </div>
                            <div className="foodInfoChild">
-                               <span className="foodInfoKey text-b">₹130  ,   </span>
+                                <LocationOn />
+                                <span className="foodInfoKey text-sm">Edappally   </span>
                             </div>
                         </div>
                    
@@ -66,11 +67,12 @@ export default function Mallcard() {
                         
                         
                   </div>
-                  <a href='http://localhost:3000/fooddet'>
-                    <button class=" w-full bg-slate-700 hover:bg-black-700 text-white text-base py-2 px-4 rounded">
+                  <a href='http://localhost:3000/wastedet'>
+                      <button class=" w-full bg-slate-700 hover:bg-black-700 text-white text-base py-2 px-4 rounded">
                               Book Now
                               
-                         </button>   </a>
+                         </button> 
+                  </a>  
                 </div>
               
 
