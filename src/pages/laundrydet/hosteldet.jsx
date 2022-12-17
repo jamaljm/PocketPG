@@ -1,5 +1,5 @@
 import React from 'react';
-import Fooddet from '../../components/fooddet/hosteldet';
+import Laundrydet from '../../components/laundrydet/hosteldet';
 import Sidebar from '../../components/sidebar/Sidebar';
 import "./home.css";
 
@@ -10,7 +10,7 @@ export default function home() {
     <div className='home'>
       <Sidebar />
     
-      <Fooddet />
+      <Laundrydet />
       
     </div>
 
