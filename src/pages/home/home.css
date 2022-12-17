@@ -1,14 +1,6 @@
 .home{
-    flex: 3.5;
     background-color:#fff;
+    display: flex;
 }
 
-.homeWidgets{
-    display: flex;
-    margin: 20px;
-    margin-top: 5px;
-}
-.charts{
-    display: flex;
 
-}
