@@ -31,7 +31,7 @@ export default function Sidebar() {
 
        
           <div class="flex gap-3">
-            <a href="#" class="font-medium  text-blue-600 dark:text-blue-500 hover:text-gray-800 no-underline">
+            <a href="http://localhost:3000/home" class="font-medium  text-blue-600 dark:text-blue-500 hover:text-gray-800 no-underline">
             <div class="min-w-50 h-fit px-8 py-3 space-y-1 text-center border-2 border-gray-700 rounded-lg dark:border-gray-700 hover:bg-slate-100	">
 
               <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAABmUlEQVRoge2YvUsDQRDF391FNMaQwlgIKpaCh4UiooiKhYUg5i9IbNRCsLbTMmBpUtmItY0Eey0OCVpJCDYiqJBCLGKCNrk7GxVPEjN7H6wH8+t2d3b3PWaHgQVCjiK8YyU3Cg3HAGzYVhqn22X/ZdFRhaJX82loKAIYBzABRb1GKrcRiDIitAws7cfQHc0DyABAdGAQAPD+9PgVcQSzYwuFzbcANP5JhBQV61qGjYyiaUjoY98GOnuTqJZuYJvmGtTGGYCTALU2hV4DqYO9vrnF3Ug87phu1Gp4Lt8DyWG/NBnI6rPUYKEi7j98sJvNV+5eRY5pT1Yn66I9IZELd0q25zkBhAxY9RfR8wOHlKrJi6oBYCZgLb8xruYTbWuB1AcUBZZ3PcKQ7iQXS6sCDorK+hBJm1gn/oewAdm47gP1y6Jj3DM95es6ldBngA3IhvuAbNiAbLgPyIYNyIb7gGzYgGzIfcD3zyufCH0G2IBs3P+N3p47xyMLrdcoMT/XBAh9BtiAbNzXgMs369v+T0KfATbAMAzjiQ/T+W02XseO4wAAAABJRU5ErkJggg=="></img>
@@ -43,7 +43,7 @@ export default function Sidebar() {
               </div>
             </a>
             
-            <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:text-gray-800 no-underline">
+            <a href="http://localhost:3000/foodpage" class="font-medium text-blue-600 dark:text-blue-500 hover:text-gray-800 no-underline">
               
             <div class="min-w-50 h-fit px-8 py-3 space-y-1 text-center border border-gray-300 rounded-lg dark:border-gray-700 hover:bg-slate-200">
 
@@ -63,7 +63,7 @@ export default function Sidebar() {
 
        
           <div class="flex gap-3">
-                <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:text-gray-800 no-underline">
+                <a href="http://localhost:3000/laundrypage" class="font-medium text-blue-600 dark:text-blue-500 hover:text-gray-800 no-underline">
               
             <div class="minw-20 h-fit px-6 py-3 space-y-1 text-center border border-gray-300 rounded-lg dark:border-gray-700 hover:bg-slate-200">
 
@@ -75,7 +75,7 @@ export default function Sidebar() {
               </div>
               </a>
             
-            <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:text-gray-800 no-underline">
+            <a href="http://localhost:3000/wastepage" class="font-medium text-blue-600 dark:text-blue-500 hover:text-gray-800 no-underline">
               
             <div class="minw-20 h-fit px-7 py-3 space-y-1 text-center border border-gray-300 rounded-lg dark:border-gray-700 hover:bg-slate-200">
 

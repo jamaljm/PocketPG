@@ -18,6 +18,11 @@ import Topbar from "./components/topbar/topbar";
 import FoodPage from "./pages/foodpage/foodpage";
 import LaundryPage from "./pages/laundrypage/laundrypage";
 import WastePage from "./pages/wastepage/wastepage";
+import Hosteldet from "./pages/hosteldet/hosteldet";
+import Fooddet from "./pages/fooddet/hosteldet";
+import Wastedet from "./pages/wastedet/hosteldet";
+import Laundrydet from "./pages/laundrydet/hosteldet";
+
 
 
 
@@ -42,7 +47,13 @@ function App() {
           {auth && <Route path="/home" element={<Home />} />}
           {auth && <Route path="/foodpage" element={<FoodPage />} />}
           {auth && <Route path="/laundrypage" element={<LaundryPage />} />}
-            {auth && <Route  path="/wastepage" element={<WastePage />} />}
+          {auth && <Route path="/wastepage" element={<WastePage />} />}
+          {auth && <Route path="/hosteldet" element={<Hosteldet />} />}\
+             {auth && <Route  path="/fooddet" element={<Fooddet />} />}
+            {auth && <Route  path="/wastedet" element={<Wastedet />} />}
+           {auth && <Route  path="/laundrydet" element={<Laundrydet />} />}
+
+          
 
 
             {!auth ? (
