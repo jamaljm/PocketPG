@@ -24,6 +24,7 @@ import Wastedet from "./pages/wastedet/hosteldet";
 import Laundrydet from "./pages/laundrydet/hosteldet";
 import Profiledet from "./pages/profile/profiledata";
 import Profileedit from "./pages/profile/profileedit";
+import Profileedits from "./pages/profile/profileedits";
 
 
 
@@ -56,6 +57,8 @@ function App() {
           {auth && <Route path="/laundrydet" element={<Laundrydet />} />}
           {auth && <Route path="/profiledet" element={<Profiledet />} />}
           {auth && <Route path="/profileedit" element={<Profileedit />} />}
+                    {auth && <Route path="/profileedits" element={<Profileedits />} />}
+
           
 
           
