@@ -127,7 +127,7 @@ function SignupPage() {
                   </div>
                   <span className="text-lg font-medium text-white">
                     {" "}
-                    Diffrent Foods{" "}
+                     Foods{" "}
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">

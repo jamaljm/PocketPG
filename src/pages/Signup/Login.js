@@ -115,7 +115,7 @@ function Login() {
                   </div>
                   <span className="text-lg font-medium text-white">
                     {" "}
-                    Diffrent Foods{" "}
+                     Foods{" "}
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">
@@ -171,7 +171,7 @@ function Login() {
             <p className="mt-4 text-base text-gray-600">
               Don’t have an account?{" "}
               <a
-                href="#"
+                href="http://localhost:3000/"
                 title=""
                 className="font-medium text-blue-600 transition-all duration-200 hover:text-blue-700 focus:text-blue-700 hover:underline"
               >
