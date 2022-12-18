@@ -41,7 +41,7 @@ function SignupPage() {
       };
     axios
       .post(
-        "https://stockings-applies-sewing-opera.trycloudflare.com/api/signup-hostler/",
+        "https://august-startup-moderator-analyze.trycloudflare.com/api/signup-hostler/",
          userData
       )
       .then((res) => {

@@ -4,6 +4,7 @@ import { Link, Navigate, useNavigate } from "react-router-dom";
 import "./signin.css";
 
 function Login() {
+  
   const navigate = useNavigate();
   const [state, setState] = useState({
     email: "",
@@ -57,9 +58,7 @@ function Login() {
       });
   };
 
-  const handleType = (e) => {
-    setType(e.target.value);
-  };
+ 
   //create a drop down with 2 options
 
   return (
