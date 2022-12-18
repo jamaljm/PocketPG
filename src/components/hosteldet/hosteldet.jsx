@@ -83,7 +83,7 @@ export default function FeaturedInfo() {
                             Pay Now
                         </a>
 
-                        <a href="#" title="" class="inline-flex items-center justify-center px-8 py-3 mt-5 text-base font-semibold text-black transition-all duration-200 bg-transparent border border-black rounded-md sm:mt-0 hover:bg-white hover:text-black" role="button"> Location </a>
+                        <a href="https://goo.gl/maps/bNsxfdV3vW73yub79" title="" class="inline-flex items-center justify-center px-8 py-3 mt-5 text-base font-semibold text-black transition-all duration-200 bg-transparent border border-black rounded-md sm:mt-0 hover:bg-white hover:text-black" role="button"> Location </a>
                     </div>
                 </div>
             </div>
