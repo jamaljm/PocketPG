@@ -41,21 +41,19 @@ function SignupPage() {
       };
     axios
       .post(
-        "https://august-startup-moderator-analyze.trycloudflare.com/api/signup-hostler/",
-         userData
+        "https://asia-danger-burns-philadelphia.trycloudflare.com/api/signup-hostler/",
+        userData
       )
       .then((res) => {
-        
-          setToken(res.data.token);
-          console.log(res.data.token);
-          window.localStorage.setItem("token", res.data.token);
-          window.localStorage.setItem("auth", "true");
-          window.localStorage.setItem("name", state.name);
+        setToken(res.data.token);
+        console.log(res.data.token);
+        window.localStorage.setItem("token", res.data.token);
+        window.localStorage.setItem("auth", "true");
+        window.localStorage.setItem("name", state.name);
 
-          navigate("/home");
-          setLogin(res.data.message);
-          window.location.reload();
-        
+        navigate("/home");
+        setLogin(res.data.message);
+        window.location.reload();
 
         console.log(res.data);
         console.log(userData);
@@ -127,7 +125,7 @@ function SignupPage() {
                   </div>
                   <span className="text-lg font-medium text-white">
                     {" "}
-                     Foods{" "}
+                    Foods{" "}
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">
@@ -147,7 +145,7 @@ function SignupPage() {
                   </div>
                   <span className="text-lg font-medium text-white">
                     {" "}
-                    Wast Management{" "}
+                    Waste Management{" "}
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">
@@ -306,6 +304,15 @@ function SignupPage() {
                   >
                     Sign up
                   </button>
+
+                  <a href="http://localhost:3001/" className="mt-10">
+                    <button
+                      type="submit"
+                      className="inline-flex mt-8 items-center justify-center w-full px-4 py-4 text-base font-semibold text-black transition-all duration-200 border-2 rounded-md bg-gradient-to-r focus:outline-none hover:opacity-80 focus:opacity-80"
+                    >
+                      Sign up For Owners
+                    </button>
+                  </a>
                 </div>
               </div>
             </form>

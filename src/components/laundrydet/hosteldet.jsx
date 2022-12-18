@@ -24,54 +24,42 @@ export default function FeaturedInfo() {
         <div class="py-10 sm:py-16 lg:py-24 2xl:pl-24">
             <div class="grid items-center grid-cols-1 gap-y-8 lg:grid-cols-2 lg:gap-x-8 2xl:gap-x-20">
                 <div class="lg:order-2 2xl:-mr-24">
-                    <img class="w-full shadow-xl rounded-xl" src="https://www.manjulaskitchen.com/wp-content/uploads/everyday-lunch-menu.jpg" alt="" />
+                    <img class="w-full shadow-xl rounded-xl" src="https://boltlaundry.com/wp-content/uploads/2020/10/Laundromat-Delivery-Service-In-St-Louis-MO.jpg" alt="" />
                 </div>
 
                 <div class="lg:order-1">
-                    <h2 class="text-base font leading-tight text-black sm:text-2xl lg:text-2xl lg:leading-snug">Anand Meals</h2>
+                    <h2 class="text-base font leading-tight text-black sm:text-2xl lg:text-2xl lg:leading-snug">Athul Laundry</h2>
 
                     <ul class="grid grid-cols-1 mt-4 sm:mt-10 sm:grid-cols-2 gap-x-10 xl:gap-x-16 gap-y-4 xl:gap-y-6">
                         <li class="flex items-center">
                             <svg class="flex-shrink-0 w-5 h-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
                             </svg>
-                            <span class="ml-3 font-medium text-black"> Quality Food </span>
+                            <span class="ml-3 font-medium text-black"> Quality Wash </span>
                         </li>
 
                         <li class="flex items-center">
                             <svg class="flex-shrink-0 w-5 h-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
                             </svg>
-                            <span class="ml-3 font-medium text-black">Healthy Food  </span>
+                            <span class="ml-3 font-medium text-black">Fast Delivery </span>
                         </li>
 
                         <li class="flex items-center">
                             <svg class="flex-shrink-0 w-5 h-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
                             </svg>
-                            <span class="ml-3 font-medium text-black"> Morning : appam , muttakkari</span>
+                            <span class="ml-3 font-medium text-black"> Free Iorn</span>
                         </li>
 
                         <li class="flex items-center">
                             <svg class="flex-shrink-0 w-5 h-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
                             </svg>
-                            <span class="ml-3 font-medium text-black"> Lunch : Meals</span>
+                            <span class="ml-3 font-medium text-black"> Hassle Free</span>
                         </li>
 
-                        <li class="flex items-center">
-                            <svg class="flex-shrink-0 w-5 h-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
-                            </svg>
-                            <span class="ml-3 font-medium text-black"> Dinner : Biriyani </span>
-                        </li>
-
-                        <li class="flex items-center">
-                            <svg class="flex-shrink-0 w-5 h-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
-                            </svg>
-                            <span class="ml-3 font-medium text-black"> Free Delivery </span>
-                        </li>
+                      
                     </ul>
 
                     <div class="flex flex-col items-start mt-8 sm:space-x-4 sm:flex-row sm:items-center lg:mt-12">
